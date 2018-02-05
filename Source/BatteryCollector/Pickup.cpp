@@ -21,10 +21,3 @@ void APickup::BeginPlay()
 	Super::BeginPlay();
 }
 
-// Called every frame
-void APickup::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

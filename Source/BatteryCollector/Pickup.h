@@ -20,9 +20,6 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 	/* Return the mesh for the Pickup */
 	FORCEINLINE class UStaticMeshComponent * GetMesh() const {
 		return PickupMesh;
